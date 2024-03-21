@@ -15,7 +15,7 @@ This project is based on Python and the **[paho.mqtt.python](https://github.com/
 
 The project will be developed in stages, starting from a simple implementation and gradually progressing to a more secure and feature-rich solution:
 
-1. **Basic Implementation**: Develop a single-server, single-state implementation with basic application-layer data encapsulation and rules.
+1. **Basic Implementation**: Develop a single-server, single-state implementation for a remote shell service, with basic application-layer data encapsulation and rules.
 2. **Payload Encryption**: Implement payload encryption to provide end-to-end security, even when the transmission layer is not secure.
 3. **Enhanced Security Measures**: Introduce additional security mechanisms to prevent common attacks such as replay attacks and man-in-the-middle attacks.
 
